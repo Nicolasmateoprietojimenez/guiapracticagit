@@ -7,8 +7,7 @@
 </head>
 <body>
     <?php
-        setcookie("micookie",$_GET["language"],time()+45);
-        header("Location:cookie_idioma.php");
+        setcookie("micookie","DATOS COOKIE",time()-1);
     ?>
 </body>
 </html>

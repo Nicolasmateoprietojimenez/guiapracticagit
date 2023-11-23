@@ -7,12 +7,7 @@
 </head>
 <body>
     <?php
-    if(isset($_COOKIE["micookie"])){
         echo $_COOKIE["micookie"];
-    }else{
-        echo "Usted no ha creado ninguna cookie";
-    }
-        
     ?>
 </body>
 </html>

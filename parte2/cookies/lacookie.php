@@ -7,8 +7,11 @@
 </head>
 <body>
     <?php
-        setcookie("micookie",$_GET["language"],time()+45);
-        header("Location:cookie_idioma.php");
+        if(isset($_COOKIE["micookie"])){
+            echo $_COOKIE["micookie"] . "<br>";
+        } else {
+            echo "USTED NO HA CREADO NINGUNA COOKIE";
+        }
     ?>
 </body>
 </html>
