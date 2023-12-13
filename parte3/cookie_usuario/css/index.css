@@ -1,12 +1,7 @@
-/* configuracion general*/
-
-/* Restablecimiento improvisado de CSS */
 * {
 	margin: 0;
 	padding: 0;
 }
-
-/* renderizar elementos HTML 5 como bloque */
 header, footer, section, aside, nav, article {
 	display: block;
 }
@@ -117,7 +112,6 @@ nav {
     height: 100%;
     border-radius: 22px;
 }
-/*DISEÑO DEL ÁREA DE CONTENIDO Y BARRA LATERAL*/
 
 #content {
     display: table;
@@ -134,8 +128,6 @@ aside {
     width: 300px;
 }
 
-
-/*contenido del blog*/
 .blogPost header p,
 .blogPost header p a {
     font-size: 14px;
@@ -150,9 +142,7 @@ aside {
 }
 
 .blogPost div {
-    /* El recuento de columnas  */
     column-count: 2;
-    /* El espacio entre columnas  */
     column-gap: 22px;
 	text-align: justify;
 }
